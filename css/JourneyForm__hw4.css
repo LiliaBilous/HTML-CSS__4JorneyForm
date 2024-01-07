@@ -98,9 +98,9 @@ a.header-icon:hover {
 .form {
   display: flex;
   flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
   background-color: #ffff;
-  /* width: 440px;
-  height: 580px; */
   border-radius: 10px;
   position: relative;
   margin: 4rem auto;
@@ -330,4 +330,5 @@ a.terms {
 }
 .alert {
   color: #df4a32;
+  height: 1rem;
 }
