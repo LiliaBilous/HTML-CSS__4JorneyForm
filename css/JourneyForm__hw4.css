@@ -13,10 +13,13 @@
   color: white;
 }
 
+body, html {
+  height: 100%;
+}
+
 .conteiner {
-  background: url(../img/backgraund.png) no-repeat;
-  background-size: cover;
-  height: 100vh;
+  background: url(../img/backgraund.png) center/cover no-repeat;
+  min-height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -96,11 +99,11 @@ a.header-icon:hover {
   display: flex;
   flex-direction: column;
   background-color: #ffff;
-  width: 440px;
-  height: 580px;
+  /* width: 440px;
+  height: 580px; */
   border-radius: 10px;
   position: relative;
-  margin: auto;
+  margin: 4rem auto;
   padding: 30px 60px;
 }
 
@@ -249,6 +252,11 @@ label {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  cursor: pointer;
+}
+
+.checkbox-text {
+  cursor: pointer;
 }
 
 input[type="checkbox"] {
